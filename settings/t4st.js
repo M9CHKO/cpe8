@@ -1,10 +1,10 @@
-//const {createClient} = require('bedrock-protocol');
-const bedrock = require('bedrock-protocol');
+const {createClient} = require('bedrock-protocol');
+//const bedrock = require('bedrock-protocol');
 const basa = require("./basa.json")
 const settings = require("./settings.json")
 const {Vec3} = require('vec3');
 function minecrafrBot() {
-const client = bedrock.createClient({
+const client = new createClient({
   host: 'cpe.ign.gg',   // optional
   port: 19132,         // optional, default 19132
   username: 'ciktyk123@outlook.com',
