@@ -7,11 +7,9 @@ function minecrafrBot() {
 const client = bedrock.createClient({
   host: 'cpe.ign.gg',   // optional
   port: 19132,         // optional, default 19132
- // username: 'ciktyk123@outlook.com',
-  username: 'lol',
-  offline: false
- // password: 'nikitaassdas462', 
-  //authTitle: false,    // optional, default false. if true, do not login with Xbox Live. You will not be asked to sign-in if set to true.
+  username: 'ciktyk123@outlook.com',
+  password: 'nikitaassdas462', 
+  authTitle: false,    // optional, default false. if true, do not login with Xbox Live. You will not be asked to sign-in if set to true.
 })
 
 client.on('spawn', client => {
