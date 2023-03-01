@@ -1,15 +1,14 @@
-const {createClient} = require('bedrock-protocol');
-//const bedrock = require('bedrock-protocol');
+//const {createClient} = require('bedrock-protocol');
+const bedrock = require('bedrock-protocol');
 const basa = require("./basa.json")
 const settings = require("./settings.json")
 const {Vec3} = require('vec3');
 function minecrafrBot() {
-const client = new createClient({
-  host: 'cpe.ign.gg',   // optional
+const client = bedrock.createClient({
+  host: 'cpe.ign.gg,   // optional
   port: 19132,         // optional, default 19132
-  username: 'ciktyk123@outlook.com',
-  password: 'nikitaassdas462', 
-  authTitle: false,    // optional, default false. if true, do not login with Xbox Live. You will not be asked to sign-in if set to true.
+  username: 'Notch',   // the username you want to join as, optional if online mode
+  offline: false     // optional, default false. if true, do not login with Xbox Live. You will not be asked to sign-in if set to true.
 })
 
 client.on('spawn', client => {
