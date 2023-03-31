@@ -125,4 +125,4 @@ client.on('interactionCreate', async (interaction) => {
 //     minecrafrBot1.minecrafrBot()
 // },1000 * 25)
 
-client.login('MTAzMTI4MzI4NjUxOTA2Njc3NQ.G1d5jc.a8sifXC0ifGUY6hGbeWvRyY-YUyC3nASHcBNwk');
+client.login('');
